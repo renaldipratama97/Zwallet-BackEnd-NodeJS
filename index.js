@@ -3,7 +3,7 @@ const express = require('express')
 const morgan = require('morgan')
 var cors = require('cors')
 const index = express()
-const PORTT = process.env.PORT
+const PORT = process.env.PORT
 const routerUsers = require('./src/router/users')
 const routerTransfers = require('./src/router/transfers')
 const routerTopups = require('./src/router/topups')
@@ -30,4 +30,4 @@ index.use('/transfers',routerTransfers)
 index.use('/topups',routerTopups)
 
 
-index.listen(PORTT, ()=> console.log(`server is running port ${PORT}`))
+index.listen(PORT, ()=> console.log(`server is running port ${PORT}`))
