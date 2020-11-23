@@ -3,10 +3,10 @@ This restfull api code backend repository using nodejs and expressjs.<br>
 This application is built using nodejs and the expressjs framework which can run restfull api crud using the get, post, put and delete methods.
 
 ### Built With
-- [Node JS] (https://nodejs.org/en/download/)
-- [Express JS] (https://www.npmjs.com/package/express)
-- [MySQL] (https://www.mysql.com/downloads/)
-- [Postman] (https://www.postman.com/)
+- [Node JS](https://nodejs.org/en/download/)
+- [Express JS](https://www.npmjs.com/package/express)
+- [MySQL](https://www.mysql.com/downloads/)
+- [Postman](https://www.postman.com/)
 
 ### Packages Used
 - [Express js](https://www.npmjs.com/package/express)
