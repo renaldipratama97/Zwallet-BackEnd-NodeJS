@@ -2,12 +2,11 @@
 This restfull api code backend repository using nodejs and expressjs.<br>
 This application is built using nodejs and the expressjs framework which can run restfull api crud using the get, post, put and delete methods.
 
-### Requirements
-- NodeJs
-- MySQL
-- Postman
-- Visual Studio Code
-- Git
+### Built With
+- [Node JS] (https://nodejs.org/en/download/)
+- [Express JS] (https://www.npmjs.com/package/express)
+- [MySQL] (https://www.mysql.com/downloads/)
+- [Postman] (https://www.postman.com/)
 
 ### Packages Used
 - [Express js](https://www.npmjs.com/package/express)
@@ -27,9 +26,19 @@ cd Zwallet-BackEnd-NodeJS
 npm install
 ```
 
-### Screenshoot
-Below is an example of crud restfull api using postman<br>
-<img src="screenshoot/getuser.JPG" width="300px" height="200px"> <img src="screenshoot/getuserbyid.JPG" width="300px" height="200px"> <img src="screenshoot/postuser.JPG" width="300px" height="200px">  <img src="screenshoot/putuser.JPG" width="300px" height="200px">  <img src="screenshoot/deleteuser.JPG" width="300px" height="200px">
+### ENV Setup
+Create .env file in your root project folder.<br>
+```bash
+PORT = 2000
+DB_HOST = localhost
+DB_NAME = zwallet-app
+DB_USER = root
+DB_PASSWORD = 
+```
+
+### REST API
+You can view my Postman collection <br>
+[![run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/64f30f493da8d6dc472e)
 
 ### Author
 - Github : [renaldipratama97](https://github.com/renaldipratama97)
